@@ -1,0 +1,28 @@
+*, *:before, *:after {
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  list-style: none;
+}
+
+html ul,
+html * ul,
+html li,
+html * li { list-style: none }
+
+html a,
+html * a { text-decoration: none }
+
+body {
+    background: $hugeWhite;
+    color: $hugeBlack;
+    padding: 0;
+    margin: 0;
+}
+
+body.scrollLock {
+    overflow: hidden;
+}
