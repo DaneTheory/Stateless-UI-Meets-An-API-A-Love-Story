@@ -308,7 +308,7 @@ const HugeNav = (function (window, document, undefined) {
 
 
 const HugeNavApiConfigs = (function (HugeNav) {       // This is the example module
-  let _remoteApiURL = "http://127.0.0.1:9191/items";  // described earlier. It's currently
+  let _remoteApiURL = "http://stateless-ui-meets-an-api-a-love-story-api.danetheory.com/items";  // described earlier. It's currently
   HugeNav.apiServer = function () {                   // providing the app with the remote
     return _remoteApiURL                              // Api url necessary to build out the
   };                                                  // navigation.
