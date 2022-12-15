@@ -16,7 +16,7 @@
     "prod": "pm2 start ./server/server.js --name stateless-ui-meets-an-api-a-love-story"
   },
   "dependencies": {
-    "express": "~4.2.0",
+    "express": "~4.17.3",
     "json-server": "^0.8.10",
     "morgan": "~1.0.0"
   },
